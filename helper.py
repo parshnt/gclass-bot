@@ -120,7 +120,7 @@ def sleepNow():
     try:
         # SLEEP, RETURN TRUE WHEN DONE!
         print("Good Night...zZZ")
-        sleep(sleepTime)
+        sleep(sleepTime-300)
         return True
 
     except KeyboardInterrupt:
