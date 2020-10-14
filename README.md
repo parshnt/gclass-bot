@@ -28,24 +28,32 @@ requires [Python v3](https://www.python.org/downloads/) to run.
 1. Clone this repo.
 
 ```sh
-$ git clone
+$ git clone https://github.com/parshnt/gclass-bot.git
 ```
 or
 
 Simply download this repo as `.zip` file and extract the contents somewhere.
 
 
-2. Check your chrome version `chrome://settings/help` and download appropriate version of ChromeDriver [here](https://chromedriver.chromium.org/downloads).
+2. Check your chrome version by visiting `chrome://settings/help` and download appropriate version of ChromeDriver from [here](https://chromedriver.chromium.org/downloads). Place the chromedriver exectable inside this project's folder.
 
-2. Navigate inside the folder and Install the requirements.
+![get_chromedriver](docs/how-to.png)
+
+
+3. Navigate inside the folder and Install the requirements.
 
 ```sh
-$ cd
+$ cd gclass-bot
 $ pip install -r requirements.txt
 ```
-3. Edit `config.py` and add your time-table into `timetable.txt`, see CONFIG.md for a detailed guide.
 
-4. Run `python main.py` and rest will be taken care of :)
+3. Add your G-account Email-ID, password and link to join Google meet/ Google classroom link to [config.py](config.py).
+![my-url](docs/gclass.png)
+
+
+4. Add your weekly timetable/schedule to [timetable.txt](timetable.txt). see [this](timetable.txt) for a detailed guide on how to load your schedule.
+
+5. Run `python main.py` and rest will be taken care of :)
 
 ### Todo
 
@@ -54,9 +62,15 @@ $ pip install -r requirements.txt
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
-- Contributions are welcomed, please see CONTRIBUTING.md for detailed guide on how to contribute.
+- Contributions and new features are welcome, as long as they don't break old ones.
 
-- New features are welcomed, as long as they don't break old ones.
+
+
+## WARNING
+
+- This was done only for the sake of experimentation and to see how far things can be automated. Attend your classes sincerely.
+- YOU are choosing to use this, and if you point the finger at me if you got into any trouble, I will laugh at you.
+- I'm not responsible for any consequence you might face if this app failed or you get caught.
 
 License
 ----
