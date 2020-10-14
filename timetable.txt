@@ -1,0 +1,20 @@
+#This is a comment
+
+#Follow the format mentioned below to convert your schedule to this format
+#<className>;<startTime>-<endTime>;<Day1>,<Day2>
+
+
+
+
+
+#Example(s) below
+
+#Class1;13:00-14:00;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+#Class2;11:00-12:00;Monday,Tuesday,Wednesday
+#Class3;09:00-10:00;Wednesday,Friday
+#Class4;04:00-5:00;Tuesday
+#Class5;22:07-22:32;Sunday
+#Class6;10:32-10:34;Sunday,Thursday
+#Class7;4:00-5:00;Sunday
+
+#There is no need to write schedule in sorted order, we'll take care of it :)
