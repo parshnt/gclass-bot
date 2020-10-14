@@ -1,4 +1,4 @@
-# gclassRoom-autoBot
+# gclass-bot
 
 A python BOT written out of sheer necessity of not being able to get up on time on those lazy mornings to attend classes.
 
@@ -70,7 +70,7 @@ $ pip install -r requirements.txt
 
 - This was done only for the sake of experimentation and to see how far things can be automated. Attend your classes sincerely.
 - YOU are choosing to use this, and if you point the finger at me if you got into any trouble, I will laugh at you.
-- I'm not responsible for any consequence you might face if this app failed or you get caught.
+- I'm not responsible for any consequence you might face if this bot failed or you get caught.
 
 License
 ----
