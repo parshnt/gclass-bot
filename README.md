@@ -47,13 +47,13 @@ $ cd gclass-bot
 $ pip install -r requirements.txt
 ```
 
-3. Add your G-account Email-ID, password and link to join Google meet/ Google classroom link to [config.py](config.py).
+4. Add your G-account Email-ID, password and link to join Google meet/ Google classroom link to [config.py](config.py).
 ![my-url](docs/gclass.png)
 
 
-4. Add your weekly timetable/schedule to [timetable.txt](timetable.txt). see [this](timetable.txt) for a detailed guide on how to load your schedule.
+5. Add your weekly timetable/schedule to [timetable.txt](timetable.txt). see [this](timetable.txt) for a detailed guide on how to load your schedule.
 
-5. Run `python main.py` and rest will be taken care of :)
+6. Run `python main.py` and rest will be taken care of :)
 
 ### Todo
 
