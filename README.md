@@ -1,18 +1,18 @@
 # gclass-bot
 
-A python BOT written out of sheer necessity of not being able to get up on time on those lazy mornings to attend classes.
+A python BOT wrote out of the sheer necessity of not being able to get up on time on those lazy mornings to attend classes.
 
 # Features!
 
-  - Import your time-table and watch it attend all your classes everyday till eternity passes away.
-  - Leave classes when number of people drops below a threshold.
+  - Import your time-table and watch it attend all your classes every day till eternity passes away.
+  - Leave classes when the number of people drops below a threshold.
   - Ability to sleep & wake-up according to schedule.
   - Auto log-in into your G-account
 
 
 ## You can also:
 
-  - Deploy it on any cloud/VPS, the BOT can attend classes according to loaded timetable without any intervention.
+  - Deploy it on any cloud/VPS, the BOT can attend classes according to the loaded timetable without any intervention.
   - One-click deploy to Heroku & Slack updates via PaperTrail add-on (coming soon!)
 
 # Initial Set-Up
@@ -32,10 +32,10 @@ $ git clone https://github.com/parshnt/gclass-bot.git
 ```
 or
 
-Simply download this repo as `.zip` file and extract the contents somewhere.
+Simply download this repo as a `.zip` file and extract the contents somewhere.
 
 
-2. Check your chrome version by visiting `chrome://settings/help` and download appropriate version of ChromeDriver from [here](https://chromedriver.chromium.org/downloads). Place the chromedriver exectable inside this project's folder.
+2. Check your chrome version by visiting `chrome://settings/help` and download the appropriate version of ChromeDriver from [here](https://chromedriver.chromium.org/downloads). Place the chromedriver executable inside this project's folder.
 
 ![get_chromedriver](docs/how-to.png)
 
@@ -47,18 +47,18 @@ $ cd gclass-bot
 $ pip install -r requirements.txt
 ```
 
-4. Add your G-account Email-ID, password and link to join Google meet/ Google classroom link to [config.py](config.py).
+4. Add your G-account Email-ID, password, and link to join Google meet/ Google classroom link to [config.py](config.py).
 ![my-url](docs/gclass.png)
 
 
 5. Add your weekly timetable/schedule to [timetable.txt](timetable.txt). see [this](timetable.txt) for a detailed guide on how to load your schedule.
 
-6. Run `python main.py` and rest will be taken care of :)
+6. Run `python main.py` and the rest will be taken care of :)
 
 ### Todo
 
  - Write Tests
- - Heroku One-click deploy app
+ - Heroku One-click deploy the app
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
